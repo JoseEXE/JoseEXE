@@ -1,0 +1,328 @@
+html{
+    margin: 0;
+    padding: 0;
+
+}
+body{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    /* background-color: grey; */
+}
+/* Container principal ***********************************************************/
+.information{
+    background-color: #e9ecef;
+    border-radius: 5px;
+    padding: 5px;
+    margin: 10px;
+    text-align: justify;
+
+}
+#conteiner{
+    width: 100%;
+    /* height: 2000px; */
+    margin: auto;
+    display: grid;
+    /* grid-template-rows: 20% 5% 60% 15%; */
+    background-color: #000000;
+    /* border: 2px solid black; */
+    /* background-image: url(../img/001.jpg);
+    background-repeat: repeat;
+    background-size: 15%; */
+}
+
+
+/* Header ***********************************************************/
+
+
+.h2-h {
+    animation-duration: 3s;
+    animation-name: slidein1;
+  }
+
+  @keyframes slidein1 {
+    from {
+      margin-left: 100%;
+      width: 100%
+    }
+  
+    to {
+      margin-left: 0%;
+      width: 100%;
+    }
+  }
+
+.header1{
+ 
+    /* border: 1px solid black; */
+    /* height: 250px;
+    background-image: url(../img/coding.gif);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover; */
+}
+
+.nav1{
+    /* border: 1px solid black; */
+    
+  
+    background-color: rgb(37, 37, 37);
+    height: auto;
+    display: grid;
+    grid-template-columns: 10% 80% 10%;
+    align-items: center;
+    height: 65px;
+}
+
+.nav1-2{
+    
+    /* border: 1px solid black; */
+    text-align: end;
+    /* align-items: center; */
+
+}
+
+.nav1-2 ul{
+   list-style-type: none;
+   /* overflow: hidden; */
+  
+   /* border: 1px solid red; */
+   display: inline-block;
+
+   padding-bottom: 8px;
+   margin: 0;
+}
+
+
+.nav1-2 li{
+    display: inline-block; 
+    /* border: 1px solid rgb(202, 173, 7); */
+    
+    padding: 8px 1px 5px 1px;
+
+
+}
+.nav1-2 li a{
+    padding: 8px;
+
+    text-align: right;
+    align-items: center;
+    text-decoration: none;
+    color: white;
+    /* background-color: rgb(54, 52, 52); */
+    /* background-image: linear-gradient(to bottom, rgb(49, 47, 47) , rgb(82, 82, 83)); */
+    border-right: 1px solid white;
+    /* border-radius: 3px; */
+}
+
+
+
+.nav1-2 li a:hover{
+    background-image: linear-gradient(to bottom, rgb(83, 82, 88) , rgb(98, 98, 105));
+    border: 2px solid white;
+
+}
+
+h1{
+    margin: 50px 0 50px 0;
+}
+
+/* SECTION ***********************************************************/
+
+.section1{
+    height: auto;
+    display: grid;
+    grid-template-columns: 10% 80% 10%;
+    /* height: 100%; */
+    ;
+}
+.section1-2{
+    border: 1px solid black;
+    background-color: white;
+}
+/* SECTION - A propos de moi ************************************** */
+.section1-2-1{
+    width: 90%;
+    margin: auto;
+    margin-top: 10%;
+}
+
+
+
+
+/* SECTION - Experience ************************************** */
+.section1-2-2{
+    width: 90%;
+    margin: auto;
+}
+
+.section1-2-2 .div1-1-1 p, .section1-2-2 .div1-2-1 p , .section1-2-2 .div1-3-1 p, .section1-2-1 .div0-1 p , .section1-2-1 .div0-2 p{
+    /* border: 1px solid black; */
+    margin: 2px; 
+    padding: 0px;
+    padding-left: 10px;
+    padding-right: 10px;
+    /* text-indent: 15px; */
+    /* text-align: justify; */
+}
+
+.post{
+    margin: 2px; 
+    padding: 0px;
+    font-weight: bolder;
+}
+
+.div1-1{
+    width: 100%;
+    /* border: 1px solid blueviolet; */
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: end;
+    margin: 10px 0 10px 0;
+}
+
+.div1-2, .div0-0{
+    width: 100%;
+    /* border: 1px solid blueviolet; */
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: start;
+}
+
+
+
+.div1-1-1, .div1-2-1, .div1-3-1, .div0-1, .div0-2{
+    background-color: rgba(238, 235, 235, 0.514);
+    /* box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset; */
+    /* box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px; */
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border-radius: 8px;
+    /* border: 1px solid black; */
+    width: 85%;
+    margin: 15px;
+}
+
+
+h5{
+    margin-left: 10px;
+}
+
+.div1-3{
+    width: 100%;
+    /* border: 1px solid blueviolet; */
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: end;
+    margin: 10px 0 10px 0;
+}
+
+/* SECTION - Competences ************************************** */
+
+.competences1{
+    width: 100%;
+    display: flex;
+    flex-flow: row wrap;
+    /* border: 2px solid yellow; */
+}
+
+.competences2{
+    display: flex;
+    flex-flow: row wrap;
+}
+.imgprogram{
+    width: 349px;
+    height: 200px;
+    opacity: 0.8;
+  
+    border-radius: 20px;
+}
+.tables1{
+    width: 40%;
+    /* border: 1px solid yellow; */
+    margin: 10px;
+}
+.competencesname{
+    width: 100px;
+    font-weight: bolder;
+}
+.divlinkhome{
+    /* border: 1px solid black; */
+    text-align: end;
+    border-bottom: 1px solid rgba(92, 92, 92, 0.5);
+    margin-top: 25px;
+    /* box-shadow: 0.0px 2px rgba(25, 0, 255, 0.178); */
+}
+
+.langues{
+    width: 40%;
+    /* border: 1px solid yellow; */
+    margin: 10px;
+    display: flex;
+}
+
+.progress{
+    width: 100%;
+    --bs-progress-bg: rgb(88, 88, 88);
+}
+
+
+
+/* FOOTER ***********************************************************/
+
+
+.footer1{
+    background-color: rgb(2, 2, 2);
+    height: 250px;
+
+}
+
+.footer1{
+/* border: 1px solid white; */
+display: flex;
+flex-flow: row wrap;
+justify-content: center;
+align-items: center;
+padding: 10px;
+
+}
+.media{
+
+    margin: 10px;
+    padding: 5px;
+}
+
+#imgprofile{
+    width: 175px;
+}
+
+#menup{
+    /* position:sticky; */
+    /* position: relative; */
+    width: 100%;
+}
+
+/* @media screen and (min-width: 321px) and (max-width: 768px) { 
+    .section1{
+        height: auto;
+        display: grid;
+        grid-template-columns: 2% 96% 2%;
+     
+        ;
+    }
+
+
+} */
+
+.navbar{
+    /* position: fixed; */
+    width: 100%;
+
+}
+.nav-link{
+    border-right: 1px solid black;
+}
+
+.nav-link:hover{
+    border: 2px solid black;
+}
